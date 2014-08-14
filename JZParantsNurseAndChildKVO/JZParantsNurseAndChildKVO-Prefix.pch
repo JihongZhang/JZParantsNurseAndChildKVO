@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'JZParantsNurseAndChildKVO' target in the 'JZParantsNurseAndChildKVO' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

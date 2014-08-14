@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3C3BDD199C96670072A5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C3BDC199C96670072A5EC /* Foundation.framework */; };
+		CF3C3BE0199C96670072A5EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C3BDF199C96670072A5EC /* main.m */; };
+		CF3C3BE4199C96670072A5EC /* JZParantsNurseAndChildKVO.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF3C3BE3199C96670072A5EC /* JZParantsNurseAndChildKVO.1 */; };
+		CF3C3BF0199C968F0072A5EC /* JZChild.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C3BED199C968F0072A5EC /* JZChild.m */; };
+		CF3C3BF1199C968F0072A5EC /* JZNurse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C3BEE199C968F0072A5EC /* JZNurse.m */; };
+		CF3C3BF2199C968F0072A5EC /* JZParants.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C3BEF199C968F0072A5EC /* JZParants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF3C3BD6199C96670072A5EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CF3C3BE4199C96670072A5EC /* JZParantsNurseAndChildKVO.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF3C3BD8199C96670072A5EC /* JZParantsNurseAndChildKVO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JZParantsNurseAndChildKVO; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3C3BDC199C96670072A5EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF3C3BDF199C96670072A5EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3C3BE2199C96670072A5EC /* JZParantsNurseAndChildKVO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JZParantsNurseAndChildKVO-Prefix.pch"; sourceTree = "<group>"; };
+		CF3C3BE3199C96670072A5EC /* JZParantsNurseAndChildKVO.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JZParantsNurseAndChildKVO.1; sourceTree = "<group>"; };
+		CF3C3BEA199C96830072A5EC /* JZChild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZChild.h; sourceTree = "<group>"; };
+		CF3C3BEB199C96830072A5EC /* JZNurse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZNurse.h; sourceTree = "<group>"; };
+		CF3C3BEC199C96830072A5EC /* JZParants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZParants.h; sourceTree = "<group>"; };
+		CF3C3BED199C968F0072A5EC /* JZChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZChild.m; sourceTree = "<group>"; };
+		CF3C3BEE199C968F0072A5EC /* JZNurse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNurse.m; sourceTree = "<group>"; };
+		CF3C3BEF199C968F0072A5EC /* JZParants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZParants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3C3BD5199C96670072A5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C3BDD199C96670072A5EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3C3BCD199C96670072A5EC = {
+			isa = PBXGroup;
+			children = (
+				CF3C3BDE199C96670072A5EC /* JZParantsNurseAndChildKVO */,
+				CF3C3BDB199C96670072A5EC /* Frameworks */,
+				CF3C3BD9199C96670072A5EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3C3BD9199C96670072A5EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C3BD8199C96670072A5EC /* JZParantsNurseAndChildKVO */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3C3BDB199C96670072A5EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C3BDC199C96670072A5EC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF3C3BDE199C96670072A5EC /* JZParantsNurseAndChildKVO */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C3BDF199C96670072A5EC /* main.m */,
+				CF3C3BEA199C96830072A5EC /* JZChild.h */,
+				CF3C3BED199C968F0072A5EC /* JZChild.m */,
+				CF3C3BEB199C96830072A5EC /* JZNurse.h */,
+				CF3C3BEE199C968F0072A5EC /* JZNurse.m */,
+				CF3C3BEC199C96830072A5EC /* JZParants.h */,
+				CF3C3BEF199C968F0072A5EC /* JZParants.m */,
+				CF3C3BE3199C96670072A5EC /* JZParantsNurseAndChildKVO.1 */,
+				CF3C3BE1199C96670072A5EC /* Supporting Files */,
+			);
+			path = JZParantsNurseAndChildKVO;
+			sourceTree = "<group>";
+		};
+		CF3C3BE1199C96670072A5EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C3BE2199C96670072A5EC /* JZParantsNurseAndChildKVO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3C3BD7199C96670072A5EC /* JZParantsNurseAndChildKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3C3BE7199C96670072A5EC /* Build configuration list for PBXNativeTarget "JZParantsNurseAndChildKVO" */;
+			buildPhases = (
+				CF3C3BD4199C96670072A5EC /* Sources */,
+				CF3C3BD5199C96670072A5EC /* Frameworks */,
+				CF3C3BD6199C96670072A5EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZParantsNurseAndChildKVO;
+			productName = JZParantsNurseAndChildKVO;
+			productReference = CF3C3BD8199C96670072A5EC /* JZParantsNurseAndChildKVO */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3C3BCF199C96670072A5EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = JZ;
+			};
+			buildConfigurationList = CF3C3BD2199C96670072A5EC /* Build configuration list for PBXProject "JZParantsNurseAndChildKVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF3C3BCD199C96670072A5EC;
+			productRefGroup = CF3C3BD9199C96670072A5EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3C3BD7199C96670072A5EC /* JZParantsNurseAndChildKVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3C3BD4199C96670072A5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C3BE0199C96670072A5EC /* main.m in Sources */,
+				CF3C3BF0199C968F0072A5EC /* JZChild.m in Sources */,
+				CF3C3BF1199C968F0072A5EC /* JZNurse.m in Sources */,
+				CF3C3BF2199C968F0072A5EC /* JZParants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF3C3BE5199C96670072A5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF3C3BE6199C96670072A5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF3C3BE8199C96670072A5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZParantsNurseAndChildKVO/JZParantsNurseAndChildKVO-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF3C3BE9199C96670072A5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZParantsNurseAndChildKVO/JZParantsNurseAndChildKVO-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3C3BD2199C96670072A5EC /* Build configuration list for PBXProject "JZParantsNurseAndChildKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C3BE5199C96670072A5EC /* Debug */,
+				CF3C3BE6199C96670072A5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3C3BE7199C96670072A5EC /* Build configuration list for PBXNativeTarget "JZParantsNurseAndChildKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C3BE8199C96670072A5EC /* Debug */,
+				CF3C3BE9199C96670072A5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3C3BCF199C96670072A5EC /* Project object */;
+}
