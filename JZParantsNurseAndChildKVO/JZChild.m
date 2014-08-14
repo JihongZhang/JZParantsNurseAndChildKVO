@@ -39,12 +39,14 @@
 -(void)timerAction:(NSTimer *)timer{
     //_happyVal--;  this one will be failed, because this is not KVO
     // need to call set to triger the KVO
-    self.nursingCountdown--;  //this one will call set and triger the KVO
-    if(self.nursingCountdown <= 0){
-        self.hungry = TRUE;
-    }else if(_hungry == TRUE){
-        _hungry = FALSE;
-    }
+     @synchronized(self){
+         self.nursingCountdown--;  //this one will call set and triger the KVO
+         if(self.nursingCountdown <= 0){
+             self.hungry = TRUE;
+         }else if(_hungry == TRUE){
+             _hungry = FALSE;
+         }
+     }
 }
 
 @end

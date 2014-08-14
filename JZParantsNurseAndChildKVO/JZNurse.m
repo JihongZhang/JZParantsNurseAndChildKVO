@@ -34,7 +34,9 @@
 {
     if([object isKindOfClass:[JZChild class]]){
         JZChild *child = (JZChild *)object;
-        child.nursingCountdown = child.nursingPeriodic;
+        @synchronized(child){
+            child.nursingCountdown = child.nursingPeriodic;
+        }
         NSLog(@"Nurse is taking care of it: change=%@", change);
     }
     
