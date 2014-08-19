@@ -37,14 +37,14 @@
 
 
 -(void)timerAction:(NSTimer *)timer{
-    //_happyVal--;  this one will not triger KVO, because it won't send set message
-    // need to call set to triger the KVO
+    // _hungry = TRUE;   this one will not triger KVO, because it won't send set message
+    // need to call set to triger the KVO, like: self.hungry = TRUE; 
      @synchronized(self){
-         self.nursingCountdown--;  //this one will call set and triger the KVO
+         self.nursingCountdown--;   
          if(self.nursingCountdown <= 0){
-             self.hungry = TRUE;
+             self.hungry = TRUE;    //this one will call set and triger the KVO
          }else if(_hungry == TRUE){
-             _hungry = FALSE;
+             _hungry = FALSE;  //this one will not triger KVO, it won't call set
          }
      }
 }
