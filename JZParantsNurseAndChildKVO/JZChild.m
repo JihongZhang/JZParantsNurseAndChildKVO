@@ -37,7 +37,7 @@
 
 
 -(void)timerAction:(NSTimer *)timer{
-    //_happyVal--;  this one will be failed, because this is not KVO
+    //_happyVal--;  this one will not triger KVO, because it won't send set message
     // need to call set to triger the KVO
      @synchronized(self){
          self.nursingCountdown--;  //this one will call set and triger the KVO

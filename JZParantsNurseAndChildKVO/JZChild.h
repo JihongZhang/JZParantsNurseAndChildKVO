@@ -10,7 +10,7 @@
 
 @interface JZChild : NSObject
 
-@property(assign) NSInteger nursingCountdown;      //atomic for async safe in case multi care
+@property(assign) NSInteger nursingCountdown;  //atomic for thread safe in case multi care
 @property(nonatomic, assign) NSInteger nursingPeriodic;
 @property(nonatomic) BOOL hungry;
 
