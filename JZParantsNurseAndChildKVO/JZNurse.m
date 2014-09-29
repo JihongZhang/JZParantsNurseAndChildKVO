@@ -36,8 +36,11 @@
         JZChild *child = (JZChild *)object;
         @synchronized(child){
             child.nursingCountdown = child.nursingPeriodic;
+            //[child setValue:FALSE forKey:@"hungry"]; this will triger KVO, cause recusive calling
         }
         NSLog(@"Nurse is taking care of it: change=%@", change);
+    }else{
+        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
     
 }

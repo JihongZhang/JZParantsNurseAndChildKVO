@@ -37,6 +37,8 @@
     if([object isKindOfClass:[JZChild class]]){
         JZChild *child = (JZChild *)object;
         NSLog(@"Parants know it: change=%@", change);
+    }else{
+        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
     
 }
